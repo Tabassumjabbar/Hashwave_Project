@@ -1,0 +1,7 @@
+scrapy startproject scrapy_project
+scrapy genspider project_crawler project.com
+scrapy crawl project_crawler
+scrapy shell
+fetch("https://allevents.in/new%20delhi/lean-six-sigma-green-belt-course-by-henry-harvin-education/1000055400774207")
+response.xpath('//title/text()')
+#later gets null brackets
